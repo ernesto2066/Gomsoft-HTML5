@@ -27,9 +27,9 @@ $contenido = "$nombre ha enviado un mensaje desde la web www.gomsoft.co\n"
  
 
 //Si el mensaje se envía muestra una confirmación
-//die("<p>Gracias, su mensaje se envio correctamente.<p><a>http://www.gomsoft.co</a>");
-//}else{
+die("<p>Gracias, su mensaje se envio correctamente.<p><a>https://ernesto2066.github.io/gomsoft/</a>");
+}else{
 //Si el mensaje no se envía muestra el mensaje de error
-//die("Error: Su información no pudo ser enviada, intente más tarde");
-//}
+die("Error: Su información no pudo ser enviada, intente más tarde");
+}
 ?>
