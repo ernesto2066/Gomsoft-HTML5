@@ -1,6 +1,6 @@
 <?php
 
-header ("Location: http://www.gomsoft.co");
+header ("Location: https://ernesto2066.github.io/gomsoft/");
 //Importamos las variables del formulario de contacto
 
 @$nombre = addslashes($_POST['name']);
