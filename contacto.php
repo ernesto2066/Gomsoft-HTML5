@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
     # Definir la dirección de destino de gomsoft
-    $dest = "jorge@gomsoft.co"; 
+    $dest = "jorge@gomsoft.tech"; 
     $mensaje_correo = "Nombre: $nombre\nCorreo electrónico: $correo\nAsunto: $asunto\nMensaje:\n$mensaje";
     $cabeceras = "From: $correo\r\n";
     $cabeceras .= "Reply-To: $correo\r\n";
